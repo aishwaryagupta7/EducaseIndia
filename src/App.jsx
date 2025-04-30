@@ -19,12 +19,12 @@ function App() {
 					<div className="space-y-3">
 						<Button
 							label="Create Account"
-							className="text-white bg-[#6C25FF]"
+							className="text-white bg-[#6C25FF] cursor-pointer"
 							onClick={() => navigate("/signup")}
 						/>
 						<Button
 							label="Already Registered? Login"
-							className="text-[#504E64] bg-[#CEBAFB]"
+							className="text-[#504E64] bg-[#CEBAFB] cursor-pointer"
 							onClick={() => navigate("/login")}
 						/>
 					</div>
