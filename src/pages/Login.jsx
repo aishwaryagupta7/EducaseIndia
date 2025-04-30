@@ -38,7 +38,7 @@ function Login() {
 	};
 
 	return (
-		<div className="h-screen w-full flex items-center justify-center">
+		<div className="h-full w-full flex items-center justify-center">
 			<div className="w-[375px] min-h-full shadow-lg flex flex-col p-6 bg-[#F7F8F9]">
 				<h1 className="text-2xl font-bold text-gray-900 mb-2">
 					SignIn to your <br /> PopX account
