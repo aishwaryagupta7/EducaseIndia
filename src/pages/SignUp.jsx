@@ -52,8 +52,8 @@ function SignUp() {
 	};
 
 	return (
-		<div className="min-h-screen flex items-center justify-center">
-			<div className="w-[375px] h-[735px] shadow-lg flex flex-col p-6 bg-[#F7F8F9]">
+		<div className="h-screen w-full flex items-center justify-center">
+			<div className="w-[375px] min-h-full shadow-lg flex flex-col p-6 bg-[#F7F8F9]">
 				<h1 className="text-2xl font-bold text-gray-900 mb-5">
 					Create your <br /> PopX account
 				</h1>

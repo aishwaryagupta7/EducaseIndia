@@ -4,8 +4,8 @@ import { Camera } from "lucide-react";
 
 function Profile() {
 	return (
-		<div className="min-h-screen flex items-center justify-center">
-			<div className="w-[375px] h-[750px] shadow-lg flex flex-col bg-[#F7F8F9]">
+		<div className="h-screen w-full flex items-center justify-center">
+			<div className="w-[375px] min-h-full shadow-lg flex flex-col bg-[#F7F8F9]">
 				<div className="w-full p-5 border-b border-gray-300 bg-white">
 					<h1 className="text-lg font-medium text-gray-600">
 						Account Settings
